@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxBinary;
@@ -103,4 +104,68 @@ public class LogIn
 
 
     }
+
+    //--------------Usability test---------------
+    @Test
+    public void Vse10PasswordUsabilitytest()
+    {
+        List<WebElement> textboxes = driver.findElements(By.cssSelector("form input[type='password']"));
+        textboxes.add(driver.findElement(By.cssSelector("form input[name='login']")));
+
+        Dimension size = textboxes.get(0).getSize();
+
+        int y=textboxes.get(0).getLocation().getY();
+
+
+        for (WebElement textbox:textboxes
+                ) {
+
+            // is enabled
+            String assert_message ="Textbox with name "+ textbox.getAttribute("name")+ " was disabled";
+            Assert.assertTrue(assert_message,textbox.isEnabled());
+
+            // is displayed
+            assert_message ="Textbox with name "+ textbox.getAttribute("name")+ " was invisible";
+            Assert.assertTrue(assert_message,textbox.isDisplayed());
+
+            // is same size
+            assert_message ="Textbox with name "+ textbox.getAttribute("name")+ " have size: "+textbox.getSize().toString()+ "but should be "+size.toString();
+            Assert.assertEquals(assert_message,size,textbox.getSize());
+
+
+            // is horizontal alignment
+            assert_message ="Textbox with name "+ textbox.getAttribute("name")+ " have y coordinate: "+textbox.getLocation().getX()+ "but should be "+y;
+            Assert.assertEquals(assert_message,y,textbox.getLocation().getY());
+
+        }
+    }
+
+
+    //-------------Remember me-------------------
+    @Test
+    public void Vse10RemMeTest()
+    {
+        
+    }
+
+
+
+
+    //--------------LogIn Test-------------------
+    @Test
+    public void RegTest()
+    {
+        //Enter data
+        //Enter Email
+        driver.findElement(By.id("login")).sendKeys("daedmoroz123@gmail.com");
+        //Enter Password
+        driver.findElement(By.id("password")).sendKeys("174dcb");
+        //click "Зарагистрироваться"
+        driver.findElement(By.cssSelector("input[type='image']")).click();
+        //check LogIn - stat_form on MyPage
+        boolean check = driver.findElement(By.id("stat_form")).isDisplayed();
+
+        Assert.assertTrue("Login is done",check);
+    }
+
 }
