@@ -36,7 +36,7 @@ public class LogIn
     @After
     public void CloseVse10()
     {
-        driver.quit();
+        //driver.quit();
     }
 
     //---------------Email test-----------------
@@ -143,9 +143,28 @@ public class LogIn
 
     //-------------Remember me-------------------
     @Test
+    public void Vse10UsabilityTest()
+    {
+        WebElement RenMe = driver.findElement(By.id("rem"));
+
+        // is enabled
+        String assert_message ="Textbox with name "+ RenMe.getAttribute("name")+ " was disabled";
+        Assert.assertTrue(assert_message,RenMe.isEnabled());
+
+        // is displayed
+        assert_message ="Textbox with name "+ RenMe.getAttribute("name")+ " was invisible";
+        Assert.assertTrue(assert_message,RenMe.isDisplayed());
+        
+    }
+
+    @Test
     public void Vse10RemMeTest()
     {
-        
+        //Find element
+        WebElement RenMe = driver.findElement(By.id("rem"));
+        //Select lelment
+        RenMe.click();
+        Assert.assertTrue("Remember me is Selected",RenMe.isSelected());
     }
 
 
