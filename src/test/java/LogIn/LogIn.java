@@ -168,7 +168,36 @@ public class LogIn
     }
 
 
+    //------------Forgot password----------------
+    @Test
+    public void Vse10Usability()
+    {
+        WebElement ForPass = driver.findElement(By.cssSelector("a[href='javascript:void(0)'"));
 
+        // is enabled
+        String assert_message ="Textbox with name "+ ForPass.getAttribute("name")+ " was disabled";
+        Assert.assertTrue(assert_message,ForPass.isEnabled());
+
+        // is displayed
+        assert_message ="Textbox with name "+ ForPass.getAttribute("name")+ " was invisible";
+        Assert.assertTrue(assert_message,ForPass.isDisplayed());
+    }
+
+    @Test
+    public void Vse10ForgotPasswordTest()
+    {
+        String exp_rem = "Daedmoroz123@gmail.com";
+        driver.findElement(By.id("login")).sendKeys("Daedmoroz123@gmail.com");
+        //Fild element
+        WebElement link = driver.findElement(By.cssSelector("a[href='javascript:void(0)'"));
+        //Click element
+        link.click();
+        //Find element on http://vse10.ru/login/remind/
+        WebElement remind = driver.findElement(By.cssSelector("input[id='le']"));
+
+        Assert.assertEquals("Forgot password is clicked",exp_rem,remind.getAttribute("value"));
+
+    }
 
     //--------------LogIn Test-------------------
     @Test
