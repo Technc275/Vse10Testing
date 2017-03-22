@@ -36,7 +36,7 @@ public class LogIn
     @After
     public void CloseVse10()
     {
-        //driver.quit();
+        driver.quit();
     }
 
     //---------------Email test-----------------
@@ -154,7 +154,7 @@ public class LogIn
         // is displayed
         assert_message ="Textbox with name "+ RenMe.getAttribute("name")+ " was invisible";
         Assert.assertTrue(assert_message,RenMe.isDisplayed());
-        
+
     }
 
     @Test
