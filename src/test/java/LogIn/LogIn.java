@@ -13,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by TechBook on 22.03.2017.
@@ -79,5 +80,27 @@ public class LogIn
             Assert.assertEquals(assert_message, Expected_Mail, Act_e);
 
         }
+    }
+
+
+    //--------------Password test---------------
+
+    @Test
+    public void Vse10PasswordTestFormatTest()
+    {
+        WebElement password = driver.findElement(By.cssSelector("input[type='password']"));
+        String Example = "qwertyuiop1234567890qwe";//Leng = 23
+        int exp_len = 20;
+
+
+        //Enter password
+        password.sendKeys(Example);
+        //Read password leng
+        int Act_pass_len = password.getAttribute("value").length();
+        String Assert_massage = "Textbox with name " + password.getAttribute("id") + " was tested. Expected: " + exp_len + ". Actual: " + Act_pass_len;
+
+        Assert.assertEquals(Assert_massage,exp_len,Act_pass_len);
+
+
     }
 }
