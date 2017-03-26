@@ -50,8 +50,7 @@ public class KeyboardTesting
 
         if (Str_in.isDisplayed())
         {
-            //if (Str_in.isEnabled())
-
+            if (Str_in.isEnabled())
             {
                 Str_in.sendKeys("тестовая");
             }
