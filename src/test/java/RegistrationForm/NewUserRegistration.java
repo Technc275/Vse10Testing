@@ -58,21 +58,33 @@ public class NewUserRegistration
         Names.add("Technic275$%^&");
         Expected_Names.add("Technic275");
 
+        //5th case
+        Names.add("Technic11111111111111111111111111111234567898765434567898765fghjhfgdgdvfbgnuhm");
+
         for (int i=0;i<Names.size();i++)
         {
             String Name = Names.get(i);
-            String Expected_Name = Expected_Names.get(i);
 
             //Enter username
             Username.sendKeys(Name);
             //Read username
             String Act_un = Username.getAttribute("value");
+            if (Act_un.length() < 29)
+            {
 
-            Username.clear();
+                Username.clear();
 
-            String assert_message = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: " + Expected_Name + ". Actual: " + Act_un;
+                String assert_message = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: " + Expected_Names.get(i) + ". Actual: " + Act_un;
 
-            Assert.assertEquals(assert_message, Expected_Name, Act_un);
+                Assert.assertEquals(assert_message, Expected_Names.get(i), Act_un);
+            }
+            else
+            {
+                int Act_un_len = Act_un.length();
+                String assert_massage = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: 29 " + ". Actual: " + Act_un_len;
+
+                Assert.assertEquals(assert_massage,29,Act_un_len);
+            }
 
         }
 
@@ -86,6 +98,7 @@ public class NewUserRegistration
         ArrayList<String> Emails = new ArrayList<String>();
         ArrayList<String> Expected_Emails = new ArrayList<String>();
         WebElement Email = driver.findElement(By.id("email"));
+
 
         //1st case
         Emails.add("Ntlvc@ukr.net");
@@ -188,7 +201,6 @@ public class NewUserRegistration
 
         int y=textboxes.get(0).getLocation().getY();
 
-
         for (WebElement textbox:textboxes
                 ) {
 
@@ -204,11 +216,9 @@ public class NewUserRegistration
             assert_message ="Textbox with name "+ textbox.getAttribute("name")+ " have size: "+textbox.getSize().toString()+ "but should be "+size.toString();
             Assert.assertEquals(assert_message,size,textbox.getSize());
 
-
             // is horizontal alignment
             assert_message ="Textbox with name "+ textbox.getAttribute("name")+ " have y coordinate: "+textbox.getLocation().getX()+ "but should be "+y;
             Assert.assertEquals(assert_message,y,textbox.getLocation().getY());
-
         }
     }
     //---------------Registration test------------------
@@ -222,9 +232,7 @@ public class NewUserRegistration
         driver.findElement(By.id("password2")).sendKeys("1234567");
         //click "Зарагистрироваться"
         driver.findElement(By.cssSelector("input[type='image']")).click();
-        //Alert alert = driver.switchTo().alert();
-        //String isd =  alert.getText();
-        //System.out.println(isd);
+
         boolean check = driver.findElement(By.id("stat_form")).isDisplayed();
 
         String Assert_massage = "Element with name" + driver.findElement(By.id("stat_form")).getAttribute("name") + " was tested. Expected: True" + ". Actual: " + check;

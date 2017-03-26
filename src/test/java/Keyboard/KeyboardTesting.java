@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxBinary;
@@ -45,15 +46,17 @@ public class KeyboardTesting
         //Go to test page
         driver.findElement(By.cssSelector("button[class='submitNew']")).click();
         //Enter word
-        WebElement Str_in = driver.findElement(By.cssSelector("input[id='keyboard']"));
+        WebElement Str_in = driver.findElement(By.id("keyboard"));
 
         if (Str_in.isDisplayed())
         {
-            if (Str_in.isEnabled())
+            //if (Str_in.isEnabled())
+
             {
                 Str_in.sendKeys("тестовая");
             }
         }
+
         String exp_res = "текстовая";
         String Act_res = driver.findElement(By.cssSelector("div[id='str_out']")).getText();
 
