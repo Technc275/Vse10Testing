@@ -42,45 +42,56 @@ public class LogIn
     //---------------Email test-----------------
 
     @Test
-    public void Vse10LoginFormatTest()
+    public void Vse10EmailFormatTest1()
     {
-        ArrayList<String> Emails = new ArrayList<String>();
-        ArrayList<String> Expected_Emails = new ArrayList<String>();
+        String Expected_Email = "Ntlvc@ukr.net";
+
         WebElement Email = driver.findElement(By.id("login"));
+        Email.sendKeys("Ntlvc@ukr.net");
 
-        //1st case
-        Emails.add("Ntlvc@ukr.net");
-        Expected_Emails.add("Ntlvc@ukr.net");
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
 
-        //2nd case
-        Emails.add("Ntlvc@@ukr.net");
-        Expected_Emails.add("Ntlvc@ukr.net");
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
 
-        //3rd case
-        Emails.add("Ntlvc@1ukr.net");
-        Expected_Emails.add("Ntlvc@ukr.net");
+    }
+    @Test
+    public void Vse10EmailFormatTest2()
+    {
+        String Expected_Email = "Ntlvc@ukr.net";
 
-        //4th case
-        Emails.add("Ntlvc@ukrnet");
-        Expected_Emails.add("Ntlvc@ukr.net");;
+        WebElement Email = driver.findElement(By.id("login"));
+        Email.sendKeys("Ntlvc@@ukr.net");
 
-        for (int i=0;i<Emails.size();i++)
-        {
-            String Mail = Emails.get(i);
-            String Expected_Mail = Expected_Emails.get(i);
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
 
-            //Enter email
-            Email.sendKeys(Mail);
-            //Read email
-            String Act_e = Email.getAttribute("value");
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
 
-            Email.clear();
+    }
+    @Test
+    public void Vse10EmailFormatTest3()
+    {
+        String Expected_Email = "Ntlvc@ukr.net";
 
-            String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Mail + ". Actual: " + Act_e;
+        WebElement Email = driver.findElement(By.id("login"));
+        Email.sendKeys("Ntlvc@1ukr.net");
 
-            Assert.assertEquals(assert_message, Expected_Mail, Act_e);
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
 
-        }
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
+
+    }
+    @Test
+    public void Vse10EmailFormatTest4()
+    {
+        String Expected_Email = "Ntlvc@ukr.net";
+
+        WebElement Email = driver.findElement(By.id("login"));
+        Email.sendKeys("Ntlvc@ukrnet");
+
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
+
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
+
     }
 
 
@@ -164,7 +175,7 @@ public class LogIn
         WebElement RenMe = driver.findElement(By.id("rem"));
         //Select lelment
         RenMe.click();
-        Assert.assertTrue("Remember me is Selected",RenMe.isSelected());
+        Assert.assertTrue("Remember me isn't Selected",RenMe.isSelected());
     }
 
 
@@ -188,15 +199,12 @@ public class LogIn
     {
         String exp_rem = "Daedmoroz123@gmail.com";
         driver.findElement(By.id("login")).sendKeys("Daedmoroz123@gmail.com");
-        //Fild element
+        //Fild element "Забыли пароль?"
         WebElement link = driver.findElement(By.cssSelector("a[href='javascript:void(0)'"));
-        //Click element
+        //Click element "Забыли пароль?"
         link.click();
-        //Find element on http://vse10.ru/login/remind/
-        WebElement remind = driver.findElement(By.cssSelector("input[id='le']"));
-
-        Assert.assertEquals("Forgot password is clicked",exp_rem,remind.getAttribute("value"));
-
+        String assert_massage = "Link with name " + link.getAttribute("id") + " was tested. Expected title : Все10 — Напоминание пароля < Логин. Actual: " + driver.getTitle() ;
+        Assert.assertEquals(assert_massage,"Все10 — Напоминание пароля < Логин",driver.getTitle());
     }
 
     //--------------LogIn Test-------------------
@@ -209,11 +217,10 @@ public class LogIn
         //Enter Password
         driver.findElement(By.id("password")).sendKeys("174dcb");
         //click "Зарагистрироваться"
-        driver.findElement(By.cssSelector("input[type='image']")).click();
-        //check LogIn - stat_form on MyPage
-        boolean check = driver.findElement(By.id("stat_form")).isDisplayed();
-
-        Assert.assertTrue("Login is done",check);
+        WebElement button = driver.findElement(By.cssSelector("input[type='image']"));
+        button.click();
+        String assert_massage = "Link with name " + button.getAttribute("id") + " was tested. Expected title : Все10 — Моя страница. Actual: " + driver.getTitle() ;
+        Assert.assertEquals(assert_massage,"Все10 — Моя страница",driver.getTitle());
     }
 
 }

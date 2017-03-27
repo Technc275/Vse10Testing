@@ -12,7 +12,7 @@ public class TestRunner
 {
     public  static  void main(String[] args){
 
-        Result result = JUnitCore.runClasses(NewUserRegistration.class,LogIn.class, KeyboardTesting.class);
+        Result result = JUnitCore.runClasses(NewUserRegistration.class,LogIn.class,KeyboardTesting.class);
 
         for(Failure failure : result.getFailures()){
 

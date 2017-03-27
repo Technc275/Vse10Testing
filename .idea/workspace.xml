@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20452616-56c6-4a68-8a57-ae372fc99f2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java" afterPath="$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Keyboard/KeyboardTesting.class" afterPath="$PROJECT_DIR$/target/test-classes/Keyboard/KeyboardTesting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/LogIn/LogIn.class" afterPath="$PROJECT_DIR$/target/test-classes/LogIn/LogIn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/RegistrationForm/NewUserRegistration.class" afterPath="$PROJECT_DIR$/target/test-classes/RegistrationForm/NewUserRegistration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LogIn/LogIn.java" afterPath="$PROJECT_DIR$/src/test/java/LogIn/LogIn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java" afterPath="$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +30,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="374">
               <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
@@ -32,33 +40,34 @@
       <file leaf-file-name="LogIn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LogIn/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="833">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
-                <element signature="method#Vse10LoginFormatTest#0;class#LogIn#0" expanded="false" />
                 <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
-                <element signature="method#Vse10RemMeTest#0;class#LogIn#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewUserRegistration.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewUserRegistration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="234" column="0" lean-forward="true" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="150" column="105" lean-forward="false" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="105" />
               <folding>
                 <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+                <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+                <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+                <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyboardTesting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KeyboardTesting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="629">
               <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,8 +79,8 @@
       <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="104" lean-forward="false" selection-start-line="14" selection-start-column="104" selection-end-line="14" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,10 +112,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/LogIn/LogIn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogIn/LogIn.java" />
       </list>
     </option>
   </component>
@@ -138,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,6 +275,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -286,85 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewUserRegistration.Vse10UsernameFormatTest">
-    <configuration default="false" name="LogIn.Vse10Usability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LogIn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Vse10Testing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="LogIn" />
-      <option name="MAIN_CLASS_NAME" value="LogIn.LogIn" />
-      <option name="METHOD_NAME" value="Vse10Usability" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="KeyboardTesting.Vse10Keyboard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Keyboard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Vse10Testing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Keyboard" />
-      <option name="MAIN_CLASS_NAME" value="Keyboard.KeyboardTesting" />
-      <option name="METHOD_NAME" value="Vse10Keyboard" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="KeyboardTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Keyboard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Vse10Testing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Keyboard" />
-      <option name="MAIN_CLASS_NAME" value="Keyboard.KeyboardTesting" />
-      <option name="METHOD_NAME" value="Vse10Keyboard" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TestRunner">
     <configuration default="false" name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestRunner" />
@@ -380,7 +311,33 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="NewUserRegistration.Vse10UsernameFormatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LogIn.RegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LogIn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Vse10Testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LogIn" />
+      <option name="MAIN_CLASS_NAME" value="LogIn.LogIn" />
+      <option name="METHOD_NAME" value="RegTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NewUserRegistration.Vse10UsernameFormatTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="RegistrationForm.*" />
@@ -392,7 +349,59 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="RegistrationForm" />
       <option name="MAIN_CLASS_NAME" value="RegistrationForm.NewUserRegistration" />
-      <option name="METHOD_NAME" value="Vse10UsernameFormatTest" />
+      <option name="METHOD_NAME" value="Vse10UsernameFormatTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NewUserRegistration.Vse10UsernameLengUsabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="RegistrationForm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Vse10Testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="RegistrationForm" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationForm.NewUserRegistration" />
+      <option name="METHOD_NAME" value="Vse10UsernameLengUsabilityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LogIn.Vse10EmailFormatTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LogIn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Vse10Testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LogIn" />
+      <option name="MAIN_CLASS_NAME" value="LogIn.LogIn" />
+      <option name="METHOD_NAME" value="Vse10EmailFormatTest4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -611,19 +620,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LogIn.Vse10Usability" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.KeyboardTesting.Vse10Keyboard" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.KeyboardTesting" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestRunner" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NewUserRegistration.Vse10UsernameFormatTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestRunner" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LogIn.RegTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NewUserRegistration.Vse10UsernameFormatTest1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NewUserRegistration.Vse10UsernameLengUsabilityTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LogIn.Vse10EmailFormatTest4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NewUserRegistration.Vse10UsernameFormatTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KeyboardTesting.Vse10Keyboard" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.KeyboardTesting" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestRunner" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LogIn.Vse10Usability" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestRunner" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LogIn.Vse10EmailFormatTest4" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NewUserRegistration.Vse10UsernameLengUsabilityTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NewUserRegistration.Vse10UsernameFormatTest1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LogIn.RegTest" />
       </list>
     </recent_temporary>
   </component>
@@ -641,57 +650,56 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KeyboardTesting_Vse10Keyboard - 2017.03.25 at 23h 11m 06s.xml">
-      <configuration name="KeyboardTesting.Vse10Keyboard" configurationId="JUnit" />
+    <history-entry file="LogIn_Vse10EmailFormatTest4 - 2017.03.27 at 20h 56m 42s.xml">
+      <configuration name="LogIn.Vse10EmailFormatTest4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyboardTesting_Vse10Keyboard - 2017.03.26 at 12h 28m 15s.xml">
-      <configuration name="KeyboardTesting.Vse10Keyboard" configurationId="JUnit" />
+    <history-entry file="LogIn_Vse10EmailFormatTest4 - 2017.03.27 at 20h 57m 22s.xml">
+      <configuration name="LogIn.Vse10EmailFormatTest4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyboardTesting_Vse10Keyboard - 2017.03.26 at 12h 29m 06s.xml">
-      <configuration name="KeyboardTesting.Vse10Keyboard" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_RegTest - 2017.03.27 at 18h 40m 39s.xml">
+      <configuration name="NewUserRegistration.RegTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyboardTesting_Vse10Keyboard - 2017.03.26 at 12h 30m 28s.xml">
-      <configuration name="KeyboardTesting.Vse10Keyboard" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_RegTest - 2017.03.27 at 18h 43m 28s.xml">
+      <configuration name="NewUserRegistration.RegTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyboardTesting_Vse10Keyboard - 2017.03.26 at 12h 33m 00s.xml">
-      <configuration name="KeyboardTesting.Vse10Keyboard" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_RegTest - 2017.03.27 at 18h 47m 31s.xml">
+      <configuration name="NewUserRegistration.RegTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyboardTesting_Vse10Keyboard - 2017.03.26 at 16h 07m 17s.xml">
-      <configuration name="KeyboardTesting.Vse10Keyboard" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_Vse10UsernameFormatTest1 - 2017.03.27 at 19h 47m 32s.xml">
+      <configuration name="NewUserRegistration.Vse10UsernameFormatTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyboardTesting_Vse10Keyboard - 2017.03.26 at 16h 20m 03s.xml">
-      <configuration name="KeyboardTesting.Vse10Keyboard" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_Vse10UsernameFormatTest1 - 2017.03.27 at 19h 48m 55s.xml">
+      <configuration name="NewUserRegistration.Vse10UsernameFormatTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewUserRegistration_Vse10UsernameFormatTest - 2017.03.26 at 16h 58m 21s.xml">
-      <configuration name="NewUserRegistration.Vse10UsernameFormatTest" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_Vse10UsernameFormatTest1 - 2017.03.27 at 19h 50m 18s.xml">
+      <configuration name="NewUserRegistration.Vse10UsernameFormatTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewUserRegistration_Vse10UsernameFormatTest - 2017.03.26 at 17h 01m 08s.xml">
-      <configuration name="NewUserRegistration.Vse10UsernameFormatTest" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_Vse10UsernameLengUsabilityTest - 2017.03.27 at 20h 00m 32s.xml">
+      <configuration name="NewUserRegistration.Vse10UsernameLengUsabilityTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewUserRegistration_Vse10UsernameFormatTest - 2017.03.26 at 17h 17m 40s.xml">
-      <configuration name="NewUserRegistration.Vse10UsernameFormatTest" configurationId="JUnit" />
+    <history-entry file="NewUserRegistration_Vse10UsernameLengUsabilityTest - 2017.03.27 at 20h 02m 01s.xml">
+      <configuration name="NewUserRegistration.Vse10UsernameLengUsabilityTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32598424" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31181103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8125984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13762811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -731,14 +739,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/LogIn/LogIn.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java</url>
-          <line>196</line>
+          <line>218</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -760,14 +762,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="234" column="31" lean-forward="false" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
+          <folding>
+            <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogIn/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="211" column="49" lean-forward="false" selection-start-line="211" selection-start-column="49" selection-end-line="211" selection-end-column="49" />
+          <folding>
+            <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LogIn/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="method#Vse10LoginFormatTest#0;class#LogIn#0" expanded="false" />
             <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
-            <element signature="method#Vse10RemMeTest#0;class#LogIn#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="234" column="0" lean-forward="true" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding>
+            <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogIn/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -778,6 +880,9 @@
           <caret line="34" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -815,9 +920,7 @@
         <state relative-caret-position="595">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="method#Vse10LoginFormatTest#0;class#LogIn#0" expanded="false" />
             <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
-            <element signature="method#Vse10RemMeTest#0;class#LogIn#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -828,6 +931,9 @@
           <caret line="34" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,9 +971,7 @@
         <state relative-caret-position="1530">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="method#Vse10LoginFormatTest#0;class#LogIn#0" expanded="false" />
             <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
-            <element signature="method#Vse10RemMeTest#0;class#LogIn#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,6 +982,9 @@
           <caret line="34" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -915,9 +1022,7 @@
         <state relative-caret-position="1530">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="method#Vse10LoginFormatTest#0;class#LogIn#0" expanded="false" />
             <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
-            <element signature="method#Vse10RemMeTest#0;class#LogIn#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -928,6 +1033,9 @@
           <caret line="34" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -965,9 +1073,7 @@
         <state relative-caret-position="884">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="method#Vse10LoginFormatTest#0;class#LogIn#0" expanded="false" />
             <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
-            <element signature="method#Vse10RemMeTest#0;class#LogIn#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,6 +1084,9 @@
           <caret line="34" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -994,7 +1103,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="374">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
@@ -1018,36 +1127,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2878">
           <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LogIn/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="method#Vse10LoginFormatTest#0;class#LogIn#0" expanded="false" />
-            <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
-            <element signature="method#Vse10RemMeTest#0;class#LogIn#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="234" column="0" lean-forward="true" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding>
-            <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="104" lean-forward="false" selection-start-line="14" selection-start-column="104" selection-end-line="14" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1056,10 +1142,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Keyboard/KeyboardTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="629">
           <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogIn/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="method#Vse10UsabilityTest#0;class#LogIn#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationForm/NewUserRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="150" column="105" lean-forward="false" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="105" />
+          <folding>
+            <element signature="method#OpenVse10#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10UsernameFormatTest1#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest2#0;class#NewUserRegistration#0" expanded="false" />
+            <element signature="method#Vse10EmailFormatTest3#0;class#NewUserRegistration#0" expanded="false" />
           </folding>
         </state>
       </provider>

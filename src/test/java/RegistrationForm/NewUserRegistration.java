@@ -36,106 +36,128 @@ public class NewUserRegistration
 
     //---------------Username test--------------
     @Test
-    public void Vse10UsernameFormatTest()
+    public void Vse10UsernameFormatTest1()
     {
-        ArrayList<String> Names = new ArrayList<String>();
-        ArrayList<String> Expected_Names = new ArrayList<String>();
+        String Expected_Name = "Technic";
+
         WebElement Username = driver.findElement(By.id("name"));
+        Username.sendKeys("Technic");
 
-        //1st case
-        Names.add("Technic");
-        Expected_Names.add("Technic");
+        String assert_message = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: " + Expected_Name + ". Actual: " + Username.getAttribute("value");
 
-        //2nd case
-        Names.add("Technic275");
-        Expected_Names.add("Technic275");
+        Assert.assertEquals(assert_message, Expected_Name, Username.getAttribute("value"));
 
-        //3rd case
-        Names.add("Technic@#$%^&");
-        Expected_Names.add("Technic");
+    }
+    @Test
+    public void Vse10UsernameFormatTest2()
+    {
+        String Expected_Name = "Technic275";
 
-        //4th case
-        Names.add("Technic275$%^&");
-        Expected_Names.add("Technic275");
+        WebElement Username = driver.findElement(By.id("name"));
+        Username.sendKeys("Technic275");
 
-        //5th case
-        Names.add("Technic11111111111111111111111111111234567898765434567898765fghjhfgdgdvfbgnuhm");
+        String assert_message = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: " + Expected_Name + ". Actual: " + Username.getAttribute("value");
 
-        for (int i=0;i<Names.size();i++)
-        {
-            String Name = Names.get(i);
+        Assert.assertEquals(assert_message, Expected_Name, Username.getAttribute("value"));
 
-            //Enter username
-            Username.sendKeys(Name);
-            //Read username
-            String Act_un = Username.getAttribute("value");
-            if (Act_un.length() < 29)
-            {
+    }
+    @Test
+    public void Vse10UsernameFormatTest3()
+    {
+        String Expected_Name = "Technic";
 
-                Username.clear();
+        WebElement Username = driver.findElement(By.id("name"));
+        Username.sendKeys("Technic@#$^&*^");
 
-                String assert_message = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: " + Expected_Names.get(i) + ". Actual: " + Act_un;
+        String assert_message = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: " + Expected_Name + ". Actual: " + Username.getAttribute("value");
 
-                Assert.assertEquals(assert_message, Expected_Names.get(i), Act_un);
-            }
-            else
-            {
-                int Act_un_len = Act_un.length();
-                String assert_massage = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: 29 " + ". Actual: " + Act_un_len;
+        Assert.assertEquals(assert_message, Expected_Name, Username.getAttribute("value"));
 
-                Assert.assertEquals(assert_massage,29,Act_un_len);
-            }
+    }
+    @Test
+    public void Vse10UsernameFormatTest4()
+    {
+        String Expected_Name = "Technic275";
 
-        }
+        WebElement Username = driver.findElement(By.id("name"));
+        Username.sendKeys("Technic275%^$(#^@");
+
+        String assert_message = "Textbox with name " + Username.getAttribute("id") + " was tested. Expected: " + Expected_Name + ". Actual: " + Username.getAttribute("value");
+
+        Assert.assertEquals(assert_message, Expected_Name, Username.getAttribute("value"));
 
     }
 
+
     //---------------Email test-----------------
-
     @Test
-    public void Vse10EmailFormatTest()
+    public void Vse10EmailFormatTest1()
     {
-        ArrayList<String> Emails = new ArrayList<String>();
-        ArrayList<String> Expected_Emails = new ArrayList<String>();
+        String Expected_Email = "Ntlvc@ukr.net";
+
         WebElement Email = driver.findElement(By.id("email"));
+        Email.sendKeys("Ntlvc@ukr.net");
 
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
 
-        //1st case
-        Emails.add("Ntlvc@ukr.net");
-        Expected_Emails.add("Ntlvc@ukr.net");
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
 
-        //2nd case
-        Emails.add("Ntlvc@@ukr.net");
-        Expected_Emails.add("Ntlvc@ukr.net");
+    }
+    @Test
+    public void Vse10EmailFormatTest2()
+    {
+        String Expected_Email = "Ntlvc@ukr.net";
 
-        //3rd case
-        Emails.add("Ntlvc@1ukr.net");
-        Expected_Emails.add("Ntlvc@ukr.net");
+        WebElement Email = driver.findElement(By.id("email"));
+        Email.sendKeys("Ntlvc@@ukr.net");
 
-        //4th case
-        Emails.add("Ntlvc@ukrnet");
-        Expected_Emails.add("Ntlvc@ukr.net");;
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
 
-        for (int i=0;i<Emails.size();i++)
-        {
-            String Mail = Emails.get(i);
-            String Expected_Mail = Expected_Emails.get(i);
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
 
-            //Enter email
-            Email.sendKeys(Mail);
-            //Read email
-            String Act_e = Email.getAttribute("value");
+    }
+    @Test
+    public void Vse10EmailFormatTest3()
+    {
+        String Expected_Email = "Ntlvc@ukr.net";
 
-            Email.clear();
+        WebElement Email = driver.findElement(By.id("email"));
+        Email.sendKeys("Ntlvc@1ukr.net");
 
-            String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Mail + ". Actual: " + Act_e;
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
 
-            Assert.assertEquals(assert_message, Expected_Mail, Act_e);
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
 
-        }
+    }
+    @Test
+    public void Vse10EmailFormatTest4()
+    {
+        String Expected_Email = "Ntlvc@ukr.net";
+
+        WebElement Email = driver.findElement(By.id("email"));
+        Email.sendKeys("Ntlvc@ukrnet");
+
+        String assert_message = "Textbox with name " + Email.getAttribute("id") + " was tested. Expected: " + Expected_Email + ". Actual: " + Email.getAttribute("value");
+
+        Assert.assertEquals(assert_message, Expected_Email, Email.getAttribute("value"));
+
     }
 
     //-----------Usability Test Username and Email-----------
+    @Test
+    public void Vse10UsernameLengUsabilityTest()
+    {
+        int Exp_len = 29;
+        String testname = "Technic11111111111111111111111111111234567898765434567898765fghjhfgdgdvfbgnuhm";
+
+        WebElement Username = driver.findElement(By.id("name"));
+        Username.sendKeys(testname);
+        String Act_un = Username.getAttribute("value");
+        int Act_un_len = Act_un.length();
+
+        String assert_massage = "Textbox username " + Username.getAttribute("id") + " was tested. Expected: 29 " + ". Actual: " + Act_un_len;
+        Assert.assertEquals(assert_massage,Exp_len,Act_un_len);
+    }
 
     @Test
     public void Vse10UsernameEmailUsability()
@@ -232,10 +254,10 @@ public class NewUserRegistration
         driver.findElement(By.id("password2")).sendKeys("1234567");
         //click "Зарагистрироваться"
         driver.findElement(By.cssSelector("input[type='image']")).click();
+        //check warning massage
+        boolean check = driver.findElement(By.cssSelector("div[class='d1']")).isDisplayed();
 
-        boolean check = driver.findElement(By.id("stat_form")).isDisplayed();
-
-        String Assert_massage = "Element with name" + driver.findElement(By.id("stat_form")).getAttribute("name") + " was tested. Expected: True" + ". Actual: " + check;
+        String Assert_massage = "Element with name" + driver.getTitle() + " was tested. Expected: True" + ". Actual: " + check;
         Assert.assertTrue(Assert_massage,check);
 
     }
